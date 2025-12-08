@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="mb-8">
           <div className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 flex items-center justify-center overflow-hidden border-4 border-gray-300 dark:border-gray-700">
             <img
-              src="../public/RagahvGaur_Passport_Photo.jpg"
+              src="/RagahvGaur_Passport_Photo.jpg"
               alt="Raghav Gaur"
               className="w-full h-full object-cover"
             />
