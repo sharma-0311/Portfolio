@@ -19,9 +19,9 @@ export default function ExperienceCard({ title, company, date, description, tags
             className="relative pl-8 pb-12 border-l-2 border-zinc-200 dark:border-neutral-800 last:border-l-0 last:pb-0"
         >
             <div className="absolute -left-[9px] top-0 h-4 w-4 rounded-full bg-zinc-400 dark:bg-neutral-600 border-4 border-white dark:border-black" />
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-                <h3 className="text-xl font-bold text-zinc-900 dark:text-white">{title}</h3>
-                <span className="text-sm text-zinc-600 dark:text-zinc-400 font-medium bg-zinc-100 dark:bg-neutral-900 px-3 py-1 rounded-full border border-zinc-200 dark:border-neutral-800">{date}</span>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2 gap-2 sm:gap-0">
+                <h3 className="text-xl font-bold text-zinc-900 dark:text-white leading-tight">{title}</h3>
+                <span className="text-sm text-zinc-600 dark:text-zinc-400 font-medium bg-zinc-100 dark:bg-neutral-900 px-3 py-1 rounded-full border border-zinc-200 dark:border-neutral-800 w-fit">{date}</span>
             </div>
             <div className="text-lg font-semibold text-zinc-700 dark:text-zinc-200 mb-4">{company}</div>
             <ul className="space-y-2 mb-4">
