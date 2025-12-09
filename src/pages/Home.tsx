@@ -39,8 +39,8 @@ export default function Home() {
 
             <div className="container-custom">
 
-                <div className="mb-32">
-                    <div className="text-center mb-16">
+                <div className="mb-16 md:mb-32">
+                    <div className="text-center mb-10 md:mb-16">
                         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 mb-6">
                             <span className="relative flex h-2 w-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
@@ -53,7 +53,7 @@ export default function Home() {
                             Crafting AI Solutions & <br className="hidden sm:block" />
                             ML Models
                         </h2>
-                        <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">
+                        <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto px-4 sm:px-0">
                             Junior Data Scientist and Machine Learning Engineer specializing in AI/ML innovations and scalable Ml Models.
                         </p>
                     </div>
@@ -106,13 +106,13 @@ export default function Home() {
                     </div>
 
                     <div className="text-center mt-12">
-                        <Link to="/about" className="inline-flex items-center gap-2 bg-white dark:bg-white text-zinc-900 px-6 py-3 rounded-lg font-semibold hover:bg-zinc-100 transition-colors">
+                        <Link to="/about" className="inline-flex items-center gap-2 bg-white dark:bg-white text-zinc-900 px-6 py-3 rounded-lg font-semibold hover:bg-zinc-100 transition-colors shadow-sm border border-zinc-200 dark:border-zinc-800">
                             Learn More About Me <ArrowRightIcon className="w-4 h-4" />
                         </Link>
                     </div>
                 </div>
 
-                <div className="mb-20">
+                <div className="mb-12 md:mb-20">
                     <h2 className="text-3xl font-bold text-zinc-900 dark:text-white mb-8 border-b border-zinc-200 dark:border-neutral-800 pb-4 text-center">
                         Featured Projects
                     </h2>
