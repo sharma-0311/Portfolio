@@ -5,12 +5,24 @@ import { AcademicCapIcon, CheckBadgeIcon, DocumentTextIcon } from '@heroicons/re
 
 const skills = {
     aiMl: ['Neural Networks', 'Reinforcement Learning', 'Deep Learning', 'Generative AI', 'Neuro-symbolic AI', 'LLM Fine-Tuning'],
-    cloudDev: ['Git', 'Amazon SageMaker', 'Docker', 'Vector DBs'],
-    programming: ['Python', 'MySQL', 'JavaScript', 'TensorFlow', 'PyTorch', 'LangChain', 'Hugging Face Transformers', 'Scikit-Learn', 'CUDA', 'Pandas', 'NumPy'],
+    cloudDev: ['Git', 'Amazon SageMaker', 'S3', 'Docker', 'Vector DBs'],
+    programming: ['Python', 'MySQL', 'JavaScript', 'TensorFlow', 'PyTorch', 'LangChain', 'Hugging Face Transformers', 'Scikit-Learn', 'CUDA', 'Pandas', 'NumPy', 'Flask', 'FastAPI'],
     dataScience: ['Power BI', 'Excel (Advanced)', 'Feature Engineering', 'Regression', 'Clustering', 'Prompt Engineering', 'SHAP Explainability'],
 };
 
 const experience = [
+    {
+        title: 'Data Scientist',
+        company: 'My GST Refund',
+        date: 'March 2026 – Present',
+        description: [
+            'Designed production-ready analytical logic for GST workflow automation in a client-facing tax technology platform.',
+            'Enhanced API reliability through structured debugging, validation logic, and failure-handling mechanisms.',
+            'Strengthened code quality through debugging, testing, and performance refinement of business-critical modules.',
+            'Collaborated on scalable data-driven solutions to improve client-side tax compliance accuracy and reporting efficiency.'
+        ],
+        tags: ['Tensorflow', 'NLTK', 'Transformers', 'PostMan', 'REST APIs', 'Flask', 'Git', 'S3', 'Python']
+    },
     {
         title: 'Junior Data Scientist',
         company: 'AcademyXcel Solutions',
