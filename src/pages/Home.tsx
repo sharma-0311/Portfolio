@@ -6,8 +6,8 @@ import ProjectCard from '../components/ProjectCard';
 
 const skills = {
     aiMl: ['Neural Networks', 'Reinforcement Learning', 'Deep Learning', 'Generative AI', 'Neuro-symbolic AI', 'LLM Fine-Tuning'],
-    cloudDev: ['Git', 'Amazon SageMaker', 'Docker', 'Vector DBs'],
-    programming: ['Python', 'MySQL', 'JavaScript', 'TensorFlow', 'PyTorch', 'LangChain', 'Hugging Face Transformers', 'Scikit-Learn', 'CUDA', 'Pandas', 'NumPy'],
+    cloudDev: ['Git', 'Amazon SageMaker', 'S3', 'Docker', 'Vector DBs'],
+    programming: ['Python', 'MySQL', 'JavaScript', 'TensorFlow', 'PyTorch', 'LangChain', 'Hugging Face Transformers', 'Scikit-Learn', 'CUDA', 'Pandas', 'NumPy', 'Flask', 'FastAPI'],
     dataScience: ['Power BI', 'Excel (Advanced)', 'Feature Engineering', 'Regression', 'Clustering', 'Prompt Engineering', 'SHAP Explainability'],
 };
 
@@ -54,7 +54,7 @@ export default function Home() {
                             ML Models
                         </h2>
                         <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto px-4 sm:px-0">
-                            Junior Data Scientist and Machine Learning Engineer specializing in AI/ML innovations and scalable Ml Models.
+                            Data Scientist and Machine Learning Engineer specializing in AI/ML innovations and scalable Ml Models.
                         </p>
                     </div>
 
