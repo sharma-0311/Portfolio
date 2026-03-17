@@ -94,7 +94,7 @@ export default function About() {
                         className="flex-1 text-center md:text-left pt-2"
                     >
                         <h1 className="text-4xl md:text-5xl font-bold text-zinc-900 dark:text-white mb-2">Raghav Gaur</h1>
-                        <p className="text-xl text-zinc-600 dark:text-zinc-300 font-medium mb-4">Junior Data Scientist & AI/ML Engineer</p>
+                        <p className="text-xl text-zinc-600 dark:text-zinc-300 font-medium mb-4">Data Scientist & AI/ML Engineer</p>
                         <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                             {['ML Engineer', 'Data Scientist', 'AI Engineer'].map((tag) => (
                                 <span key={tag} className="px-3 py-1 rounded-full bg-zinc-100 dark:bg-neutral-900 text-zinc-700 dark:text-zinc-300 text-sm border border-zinc-200 dark:border-neutral-800 font-medium">
