@@ -3,6 +3,15 @@ import ProjectCard from '../components/ProjectCard';
 
 const projects = [
     {
+        title: 'ML-Powered Job Recommendation System',
+        description: [
+            'Built a full-stack AI job portal with Django, featuring intelligent job recommendations using content-based filtering, automated CSV ingestion, authentication, admin dashboard, and real-time recommendations for 10K+ job listings.'
+        ],
+        tags: ['LangChain', 'RAG', 'Python', 'LLMs', 'Amazon S3', 'Amazon Lambda', 'Amazon Beanstalk', 'Machine Learning', 'REST APIs', 'SQL'],
+        githubUrl: 'https://github.com/sharma-0311/Job-Recommendation-system.git',
+        image: '/Job-Recommendation-system.png'
+    },
+    {
         title: 'ColorWave – SAR Image Colorizer Model',
         description: [
             'Production-ready deep learning system transforming grayscale SAR images into realistic RGB visualizations using UNet, GANs, and attention mechanisms.'

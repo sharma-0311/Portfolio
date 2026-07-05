@@ -5,28 +5,29 @@ import { AcademicCapIcon, CheckBadgeIcon, DocumentTextIcon } from '@heroicons/re
 
 const skills = {
     aiMl: ['Neural Networks', 'Reinforcement Learning', 'Deep Learning', 'Generative AI', 'Neuro-symbolic AI', 'LLM Fine-Tuning'],
-    cloudDev: ['Git', 'Amazon SageMaker', 'S3', 'Docker', 'Vector DBs'],
-    programming: ['Python', 'MySQL', 'JavaScript', 'TensorFlow', 'PyTorch', 'LangChain', 'Hugging Face Transformers', 'Scikit-Learn', 'CUDA', 'Pandas', 'NumPy', 'Flask', 'FastAPI'],
+    cloudDev: ['Git', 'Amazon SageMaker', 'Docker', 'Vector DBs (Pinecone, ChromaDB, Qdrant)', 'Amazon S3', 'Amazon Lambda', 'Amazon Beanstalk', 'API Gateway', 'Rest APIs', 'MLOps'],
+    programming: ['Python', 'MySQL', 'TensorFlow', 'PyTorch', 'LangChain', 'Hugging Face Transformers', 'Scikit-Learn', 'PySpark', 'CUDA', 'Pandas', 'NumPy', 'Flask', 'FastAPI', 'Spring Boot'],
     dataScience: ['Power BI', 'Excel (Advanced)', 'Feature Engineering', 'Regression', 'Clustering', 'Prompt Engineering', 'SHAP Explainability'],
 };
 
 const experience = [
     {
         title: 'Data Scientist',
-        company: 'My GST Refund',
+        company: 'MyGST Refund Team | Cretum Advisory',
         date: 'March 2026 – Present',
         description: [
-            'Designed production-ready analytical logic for GST workflow automation in a client-facing tax technology platform.',
-            'Enhanced API reliability through structured debugging, validation logic, and failure-handling mechanisms.',
-            'Strengthened code quality through debugging, testing, and performance refinement of business-critical modules.',
-            'Collaborated on scalable data-driven solutions to improve client-side tax compliance accuracy and reporting efficiency.'
+            'Designed AI-powered GST compliance platforms for registration validation, litigation management, and refund automation.',
+            'Built intelligent OCR and document-processing pipelines for GST notices, invoices, registration documents, and financial records.',
+            'Developed LLM-powered automation using RAG, prompt engineering, and LangChain to generate contextual compliance responses and AI assistants.',
+            'Created scalable Python automation workflows integrating AWS S3, REST APIs, and reporting systems for high-volume GST processing.',
+            'Implemented ML-based validation and anomaly detection to identify fraudulent registrations, missing documents, and compliance risks.'
         ],
-        tags: ['Tensorflow', 'NLTK', 'Transformers', 'PostMan', 'REST APIs', 'Flask', 'Git', 'S3', 'Python']
+        tags: ['LangChain', 'RAG', 'GANs', 'U-Net', 'Python', 'LLMs', 'OCR', 'Amazon S3', 'Amazon Lambda', 'Amazon Beanstalk', 'Machine Learning', 'REST APIs', 'SQL']
     },
     {
         title: 'Junior Data Scientist',
         company: 'AcademyXcel Solutions',
-        date: 'Aug 2024 – Present',
+        date: 'Aug 2024 – March 2026',
         description: [
             'Integrated LangChain and RAG (Retrieval-Augmented Generation) to develop domain-specific chatbots capable of answering complex queries with high accuracy.',
             'Developed a SAR Image Colorization model (ColorWave) using GANs (Generative Adversarial Networks) and U-Net architecture, achieving a PSNR score of 28+.',
@@ -119,15 +120,15 @@ export default function About() {
                         </div>
                         <div className="p-6 md:p-8">
                             <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed text-base md:text-lg">
-                                I’m a Data Science and Machine Learning practitioner who brings analytical clarity to messy, real-world problems. My work spans predictive modeling, data visualization, cloud-based analytics, and full-stack ML deployment. Across projects, I focus on building solutions that are accurate, explainable, and production-ready.
+                                I’m a Data Scientist and AI Engineer passionate about transforming complex business challenges into intelligent, scalable software solutions. My expertise lies in Machine Learning, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), OCR, data engineering, and cloud-based AI systems, with a strong focus on building production-ready applications that automate real-world workflows.
                                 <br /><br />
-                                I’ve engineered end-to-end systems like CreditWiseAI, a credit-risk prediction platform integrating Random Forest models, SHAP-based explainability, MySQL logging, and a responsive Streamlit UI. I’ve also created Colorwave, an AI-powered image enhancement tool that sharpened my understanding of computer vision pipelines and user-centric ML design.
+                                Currently, I work at <strong>MyGST Refund | Cretum Advisory</strong>, where I develop AI-driven platforms for GST compliance, litigation management, refund automation, and document intelligence. My work involves designing OCR pipelines, building intelligent validation systems, integrating LLMs with enterprise knowledge bases, and creating automation frameworks that significantly reduce manual effort while improving accuracy and operational efficiency.
                                 <br /><br />
-                                My toolbox includes Python, SQL, Power BI, scikit-learn, TensorFlow, PyTorch, and cloud fundamentals. I’ve earned certifications in Machine Learning, Data Analytics, and Python development, strengthening my technical foundation for industry-level challenges.
+                                Beyond my professional work, I've built end-to-end AI products including <strong>CreditWiseAI</strong>, an explainable credit risk prediction platform featuring Machine Learning, SHAP explainability, Streamlit, and RAG-based financial assistance, as well as <strong>ColorWave</strong>, a deep learning solution for SAR image colorization using U-Net and GAN architectures.
                                 <br /><br />
-                                Professionally, I’ve contributed as a Training Executive, mentoring learners in emerging technologies and simplifying complex concepts into practical knowledge. These experiences refine my communication and cross-functional collaboration skills, making me effective in teams where data meets business decisions.
+                                My technical stack includes <strong>Python, SQL, FastAPI, Flask, LangChain, TensorFlow, PyTorch, Scikit-learn, AWS (S3, Lambda, EC2, Sagemaker, Beanstalk), MySQL, Docker, Power BI</strong>, and modern AI frameworks. I enjoy architecting complete AI solutions, from data pipelines and model development to cloud deployment, APIs, and intuitive user experiences.
                                 <br /><br />
-                                I thrive where curiosity meets structure. Whether exploring new algorithms, optimizing pipelines, or designing intuitive dashboards, I aim to create solutions that deliver measurable value and scale gracefully.
+                                I believe great AI isn't just about building accurate models. It's about creating reliable, explainable, and scalable systems that solve meaningful business problems. Whether it's automating compliance workflows, deploying enterprise AI applications, or designing intelligent assistants, my goal is to bridge cutting-edge AI with practical business impact.
                             </p>
                         </div>
                     </div>

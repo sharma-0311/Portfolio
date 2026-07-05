@@ -6,12 +6,21 @@ import ProjectCard from '../components/ProjectCard';
 
 const skills = {
     aiMl: ['Neural Networks', 'Reinforcement Learning', 'Deep Learning', 'Generative AI', 'Neuro-symbolic AI', 'LLM Fine-Tuning'],
-    cloudDev: ['Git', 'Amazon SageMaker', 'S3', 'Docker', 'Vector DBs'],
-    programming: ['Python', 'MySQL', 'JavaScript', 'TensorFlow', 'PyTorch', 'LangChain', 'Hugging Face Transformers', 'Scikit-Learn', 'CUDA', 'Pandas', 'NumPy', 'Flask', 'FastAPI'],
+    cloudDev: ['Git', 'Amazon SageMaker', 'Docker', 'Vector DBs (Pinecone, ChromaDB, Qdrant)', 'Amazon S3', 'Amazon Lambda', 'Amazon Beanstalk', 'API Gateway', 'Rest APIs', 'MLOps'],
+    programming: ['Python', 'MySQL', 'TensorFlow', 'PyTorch', 'LangChain', 'Hugging Face Transformers', 'Scikit-Learn', 'PySpark', 'CUDA', 'Pandas', 'NumPy', 'Flask', 'FastAPI', 'Spring Boot'],
     dataScience: ['Power BI', 'Excel (Advanced)', 'Feature Engineering', 'Regression', 'Clustering', 'Prompt Engineering', 'SHAP Explainability'],
 };
 
 const featuredProjects = [
+    {
+        title: 'ML-Powered Job Recommendation System',
+        description: [
+            'Built a full-stack AI job portal with Django, featuring intelligent job recommendations using content-based filtering, automated CSV ingestion, authentication, admin dashboard, and real-time recommendations for 10K+ job listings.'
+        ],
+        tags: ['LangChain', 'RAG', 'Python', 'LLMs', 'Amazon S3', 'Amazon Lambda', 'Amazon Beanstalk', 'Machine Learning', 'REST APIs', 'SQL'],
+        githubUrl: 'https://github.com/sharma-0311/Job-Recommendation-system.git',
+        image: '/Job-Recommendation-system.png'
+    },
     {
         title: 'ColorWave – SAR Image Colorizer Model',
         description: [
@@ -54,7 +63,10 @@ export default function Home() {
                             ML Models
                         </h2>
                         <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto px-4 sm:px-0">
-                            Data Scientist and Machine Learning Engineer specializing in AI/ML innovations and scalable Ml Models.
+                            Data Scientist & AI Engineer at MyGST Refund Team | Cretum Advisory
+                        </p>
+                        <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto px-4 sm:px-0">
+                            building intelligent automation, LLM-powered applications, and scalable machine learning solutions for real-world business problems.
                         </p>
                     </div>
 
@@ -63,7 +75,7 @@ export default function Home() {
                         <div className="lg:col-span-1 h-full">
                             <SkillCard
                                 title="Background"
-                                description="As a Junior Data Scientist and Machine Learning Engineer with a strong foundation in Computer Science, I specialize in developing cutting-edge AI/ML solutions and GenAI innovations. My expertise spans Data Science, Machine Learning, and building scalable AI solutions that drive business value."
+                                description="As a Data Scientist and AI Engineer, I design and develop production-ready AI systems that solve complex business challenges through Machine Learning, Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), OCR, and intelligent automation.                     My expertise spans predictive analytics, computer vision, NLP, cloud computing, data engineering, and scalable backend architectures, enabling organizations to transform raw data into actionable insights, automate critical workflows, and build secure, high-performance AI solutions that deliver measurable business impact."
                                 delay={0.2}
                                 icon={<AcademicCapIcon className="w-6 h-6" />}
                             />
